@@ -301,7 +301,7 @@ def main():
                                             n_cpu=n_cpu,
                                             mem_per_cpu=n_mem)
     
-    batch_job += '/dali/lgrandi/xenonnt/container_submit/xnt_environment {s_container} {command}'.format(s_container=s_container,
+    batch_job += '/dali/lgrandi/xenonnt/submission/xnt_environment {s_container} {command}'.format(s_container=s_container,
                                                                                                              command=pcommand)    
     
     print('Your batch submission script:')

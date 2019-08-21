@@ -22,7 +22,7 @@ else
 fi
 
 
-INNER_SCRIPT="/dali/lgrandi/xenonnt/container_submit/xnt_inner_environment.sh $ARGUMENT2"
+INNER_SCRIPT="/dali/lgrandi/xenonnt/submission/xnt_inner_environment.sh $ARGUMENT2"
 CONTAINER_NAME=$ARGUMENT1
 CONTAINER_PATH=/cvmfs/singularity.opensciencegrid.org/opensciencegrid
 SINGULARITY_CACHEDIR=/scratch/midway2/$USER/singularity_cache
